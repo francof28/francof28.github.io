@@ -61,10 +61,12 @@ section {
 }
 
 .nav-link:link {
+    color: #e8e7e6;
     text-decoration: none;
 }
 
 .nav-link:hover {
+    color: #e8e7e6;
     text-decoration: underline;
     font-size: larger;
     cursor: pointer;
@@ -109,10 +111,12 @@ li {
 }
 
 .certificates-link:link {
+    color: #e8e7e6;
     text-decoration: none;
 }
 
 .certificates-link:hover {
+    color: #e8e7e6;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -196,6 +200,7 @@ li {
 }
 
 .project-link {
+    color: #e8e7e6;
     text-decoration: none;
 }
 
@@ -209,6 +214,7 @@ li {
 }
 
 .project-link:hover {
+    color: #e8e7e6;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -258,10 +264,12 @@ li {
 }
 
 .contact-link {
+    color: #e8e7e6;
     text-decoration: none;
 }
 
 .contact-link:hover {
+    color: #e8e7e6;
     text-decoration: underline;
     cursor: pointer;
 }
