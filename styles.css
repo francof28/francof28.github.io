@@ -200,7 +200,6 @@ li {
 }
 
 .project-link {
-    color: #e8e7e6;
     text-decoration: none;
 }
 
@@ -214,7 +213,6 @@ li {
 }
 
 .project-link:hover {
-    color: #e8e7e6;
     text-decoration: underline;
     cursor: pointer;
 }
