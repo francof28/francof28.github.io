@@ -1,27 +1,3 @@
-@media screen and (max-width: 380px) {
-    * {
-        font-size: small;
-    }
-
-    .component{
-        font-size: medium;
-    }
-
-    .project-description{
-        display: none;
-    }
-
-    .project-caption{
-        margin: inherit;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .intro {
-        font-size: small;
-    }
-}
-
 body {
     background-color: #202124;;
     color: #f8f9fa;
@@ -38,7 +14,7 @@ section {
 .navbar {
     display: flex;
     width: 100%;
-    min-height: 100vh; /* Responsive height for full-screen size  - 1vh -> 1% screen */
+    min-height: 100vh;
     font-size: larger;
     text-align: center;
 }
@@ -275,4 +251,61 @@ li {
 .contact-link:visited {
     color: inherit;
     text-decoration: none;
+}
+
+@media screen and (max-width: 420px) {
+    * {
+        font-size: 18px;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    section {
+        width: 80%;
+    }
+
+    .navbar {
+        display: flex;
+        width: 100%;
+        min-height: 100vh;
+        font-size: larger;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .about_me {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .caption {
+        width: 100%;
+        min-height: 100vh;
+        font-size: larger;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .personal_text {
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .component{
+        font-size: medium;
+    }
+
+    .project-description{
+        display: none;
+    }
+
+    .project-caption{
+        margin: inherit;
+    }
 }
